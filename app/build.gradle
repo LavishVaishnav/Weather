@@ -1,0 +1,44 @@
+plugins {
+    id 'java'
+    id 'org.springframework.boot' version '3.0.0'  // Spring Boot plugin
+    id 'io.spring.dependency-management' version '1.0.15.RELEASE'  // Dependency management
+}
+
+group = 'com.example'
+version = '1.0.0-SNAPSHOT'
+sourceCompatibility = '19'
+
+repositories {
+    // Use Maven Central for resolving dependencies.
+    mavenCentral()
+}
+
+dependencies {
+    // Spring Boot Web for building REST APIs
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+
+    // Spring Data MongoDB for interacting with MongoDB
+    implementation 'org.springframework.boot:spring-boot-starter-data-mongodb'
+
+    // Thymeleaf template engine for UI (optional)
+    implementation 'org.springframework.boot:spring-boot-starter-thymeleaf'
+
+    // Testing with JUnit (Spring Boot already provides JUnit 5)
+    testImplementation 'org.springframework.boot:spring-boot-starter-test'
+
+    // JUnit 5 dependencies
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.0'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.7.0'
+
+
+    implementation 'org.json:json:20230227'
+}
+
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(19)
+    }
+}
+bootJar {
+    archiveFileName = 'weather-monitoring-system.jar'  // Set your desired JAR file name
+}

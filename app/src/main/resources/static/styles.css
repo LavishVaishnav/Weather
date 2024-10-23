@@ -1,0 +1,120 @@
+/* Global Styling */
+body {
+    background-color: #f8f9fa;
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+}
+
+.logo {
+    width: 150px; /* Adjust the logo size */
+    margin-bottom: 20px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+.input-group input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+}
+
+button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    font-size: 1rem;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Card Styling */
+.card {
+    background-color: white !important;
+    border-radius: 10px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.current-weather {
+    margin-bottom: 20px;
+}
+
+.current-weather h2 {
+    font-size: 3em;
+}
+
+.weather-details {
+    font-size: 1.2rem;
+}
+
+.weather-icon {
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+
+#weatherChart {
+    width: 100%;
+    max-width: 600px;
+    margin-top: 20px;
+}
+
+/* Responsive Styling */
+@media (max-width: 600px) {
+    .input-group, button {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
+
+/* Box-styled AQI Section */
+.air-quality-index-box {
+    background-color: #f9f9f9; /* Light gray background */
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid #007bff; /* Blue border */
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    max-width: 400px;
+    margin: 0 auto; /* Center it on the page */
+    display: block;
+    color: #333; /* Ensure the text is visible */
+}
+
+/* AQI Number Styling */
+#aqi-display {
+    font-size: 3em; /* Larger font */
+    color: #dc3545; /* Red color for visibility */
+}
+
+/* AQI Category Styling */
+#aqi-category {
+    font-size: 1.2em;
+    color: #ff6347; /* Attention color (Tomato) */
+    margin-top: 10px;
+}
+
+/* AQI Description */
+#aqi-description {
+    font-size: 1rem;
+    color: #6c757d; /* Muted text */
+    margin-top: 10px;
+}
+
+/* Text Styling */
+.text-primary {
+    color: #007bff !important; /* Primary color for headings */
+}
+
+.text-danger {
+    color: #dc3545 !important; /* Danger color for AQI */
+}
