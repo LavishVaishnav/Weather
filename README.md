@@ -163,7 +163,7 @@ To include a historical weather icon or visual, you can create a placeholder or 
    ![City Search](https://github.com/LavishVaishnav/Weather/blob/main/CitySearch.png)
 
 4. **Historical Trends Icon**: A representation of historical data analysis.  
-   ![Historical Icon](https://github.com/LavishVaishnav/Weather/blob/main/HistoricalIcon.png)
+   ![Historical Icon] (https://github.com/LavishVaishnav/Weather/blob/main/HistoricalWeatherReport.png)
 
 ---
 
