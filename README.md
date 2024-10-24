@@ -159,12 +159,6 @@ To include a historical weather icon or visual, you can create a placeholder or 
 2. **Home Page**: Displaying weather data (Version 2).  
    ![Home Page 2](https://github.com/LavishVaishnav/Weather/blob/main/MainPage2.png)
 
-3. **City Search**: User input for specific city weather.  
-   ![City Search](https://github.com/LavishVaishnav/Weather/blob/main/CitySearch.png)
-
-4. **Historical Trends Icon**: A representation of historical data analysis.  
-   ![Historical Icon] (https://github.com/LavishVaishnav/Weather/blob/main/HistoricalWeatherReport.png)
-
 ---
 
 Make sure to upload `HistoricalIcon.png` to your GitHub repository in the `main` branch so the link works correctly. Let me know if the icon name or file path changes!
